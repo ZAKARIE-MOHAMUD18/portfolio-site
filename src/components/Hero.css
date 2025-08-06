@@ -1,0 +1,48 @@
+/* src/components/Hero.css */
+
+.hero {
+  min-height: 100vh;
+  padding-top: 10rem;
+  text-align: left;
+}
+
+.intro {
+  font-size: 1rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.hero-name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 2rem;
+  color: var(--subtext);
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  max-width: 600px;
+  font-size: 1.1rem;
+  color: var(--subtext);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+}

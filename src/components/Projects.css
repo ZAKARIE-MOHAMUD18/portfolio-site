@@ -1,0 +1,57 @@
+/* src/components/Projects.css */
+
+.projects {
+  max-width: 800px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--primary);
+}
+
+.project {
+  margin-bottom: 3rem;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  color: var(--subtext);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.project-stack li {
+  background-color: rgba(100, 255, 218, 0.1);
+  color: var(--primary);
+  padding: 0.3rem 0.75rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.project-links a {
+  margin-right: 1rem;
+  color: var(--primary);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.project-links a:hover {
+  text-decoration: none;
+}
